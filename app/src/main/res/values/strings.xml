@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">Music Bridge</string>
+    <string name="facebook_app_id">367835636968182</string>
+    <string name="fb_login_protocol_scheme">fb367835636968182</string>
+    <string name="spotify_client_id">f4338b2eabed491c87b3ac9cda732593</string>
+    <string name="spotify_redirect_uri">yourcustomprotocol://callback</string>
+
+    <!-- Details screen strings -->
+    <string name="your_profile">Your Profile</string>
+    <string name="upload_your_super_pic">Upload your super cool pic</string>
+    <string name="i_am">I am</string>
+    <string name="boy">Boy</string>
+    <string name="girl">Girl</string>
+    <string name="about_you">About you</string>
+    <string name="i_am_cool_and_lovely">I am cool and lovely person</string>
+    <string name="back">BACK</string>
+    <string name="age_range">Age range</string>
+    <string name="next_step">NEXT STEP</string>
+    <string name="save">SAVE</string>
+    <string name="cancel">CANCEL</string>
+    <string name="error_cannot_upload_image">Cannot upload image</string>
+    <string name="progress_saving_data">Saving data..</string>
+    <string name="progress_updating_image">Updating image..</string>
+
+    <!-- Messages screen -->
+    <string name="progress_loading_messages">Loading messages..</string>
+    <string name="error_cannot_load_messages">Cannot load messages</string>
+
+    <!-- Home screen -->
+    <string name="click_to_listen_music">Click to listen music</string>
+    <string name="progress_loading_users">Loading users..</string>
+    <string name="error_cannot_load_users">Cannot load users</string>
+    <string name="progress_preparing_track">Preparing track..</string>
+    <string name="error_player_not_working">Player not working</string>
+    <string name="error_track_not_found">Track not found</string>
+    <string name="years">&#160;yrs</string>
+    <string name="km_away">&#160;km away</string>
+
+    <!-- Profile screen -->
+    <string name="logout">LOGOUT</string>
+    <string name="edit_profile">EDIT PROFILE</string>
+    <string name="app_settings">app settings</string>
+    <string name="progress_loading_profile">Loading profile..</string>
+    <string name="error_cannot_show_image">Cannot show image</string>
+    <string name="error_cannot_load_genres">Cannot load genres</string>
+    <string name="click_edit_to_add_genres">Click Edit to add genres</string>
+
+    <!-- Dialogs screen -->
+    <string name="error_cannot_load_dialogs">Cannot load dialogs</string>
+    <string name="error_failed_to_load_user">Failed to load user</string>
+    <string name="progress_loading_dialogs">Loading dialogs..</string>
+
+    <!-- Login screen -->
+    <string name="progress_login">Log in..</string>
+    <string name="error_cannot_load_spotify_profile">Cannot load Spotify profile</string>
+    <string name="error_failed_to_create_user">Failed to create profile. Try later</string>
+    <string name="error_failed_to_load_profile">Failed to load profile. Try later</string>
+    <string name="connect_your_spotify">CONNECT YOUR SPOTIFY</string>
+
+    <!-- match full screen dialog -->
+    <string name="its_a_match">It\'s a match!</string>
+    <string name="you_and_user_matched">You and %1$s liked each other</string>
+    <string name="start_chatting">Start chatting</string>
+    <string name="later">Later</string>
+
+    <!-- empty states -->
+    <string name="you_have_no_dialogs_yet">You have no dialogs yet</string>
+    <string name="no_cards_to_display">You have no users to display</string>
+
+    <!-- notifications -->
+    <string name="title_mutual_like">New match</string>
+    <string name="text_mutual_like">Congrats! You have new match!</string>
+    <string name="title_new_like">New like</string>
+    <string name="text_new_like">Someone liked you</string>
+    <string name="title_new_message">New message</string>
+    <string name="text_new_message">You have unread message</string>
+
+    <!-- choose genres screen -->
+    <string name="title_select_fav_genres">Select favorite genres</string>
+    <string name="error_you_do_not_have_genres">Looks like you don\'t have genres</string>
+    <string name="error_failed_to_get_genres">Cannot get genres now</string>
+    <string name="error_cannot_save_genres">Cannot save genres</string>
+    <string name="progress_saving_genres">Saving genres..</string>
+
+    <!-- menu items -->
+    <string name="you">You</string>
+    <string name="swipe">Swipe</string>
+    <string name="chats">Chats</string>
+
+    <!-- choose genres screen -->
+    <string name="discover">Discover</string>
+    <string name="tap_to_choose_genres">Tap to choose your favorite genres</string>
+
+    <!-- app settings screen -->
+    <string name="new_messages">New messages</string>
+    <string name="new_likes">New likes</string>
+    <string name="new_matches">New matches</string>
+    <string name="notifications">Notifications</string>
+
+</resources>

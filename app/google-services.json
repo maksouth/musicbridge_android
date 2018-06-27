@@ -1,0 +1,167 @@
+{
+  "project_info": {
+    "project_number": "650451333777",
+    "firebase_url": "https://luresfriends.firebaseio.com",
+    "project_id": "luresfriends",
+    "storage_bucket": "luresfriends.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:650451333777:android:1a89baacd1100bb6",
+        "android_client_info": {
+          "package_name": "com.lures.friends"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "650451333777-0m1vi8d4oebk1hhijfd9cuit5rr8gjc8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lures.friends",
+            "certificate_hash": "99d5cdfce370d4429c4ec1a4f2f3d44b502b69ea"
+          }
+        },
+        {
+          "client_id": "650451333777-mj615k67pqi9to4mb8epppmcuq7927o8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3aDXe5K8bpasX6-v269xPHJr2gpJmVBQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "650451333777-mj615k67pqi9to4mb8epppmcuq7927o8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:650451333777:android:2c2ef5a268f2b982",
+        "android_client_info": {
+          "package_name": "com.yeket.musicbridge"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "650451333777-hphb59a7b2aobofhamnor6j3c4bdflj9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yeket.musicbridge",
+            "certificate_hash": "e138d676e5d2ebc09127c445f2aa118908ea166a"
+          }
+        },
+        {
+          "client_id": "650451333777-5cc29ci7pin4cg9nq8oaic1flqgt8089.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yeket.musicbridge",
+            "certificate_hash": "1f9da39fb4ecc0d3a593167fe10cc08d5c9d0730"
+          }
+        },
+        {
+          "client_id": "650451333777-n0b39ijludr1kuf394ug5bpmdp46g7cr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yeket.musicbridge",
+            "certificate_hash": "99d5cdfce370d4429c4ec1a4f2f3d44b502b69ea"
+          }
+        },
+        {
+          "client_id": "650451333777-mj615k67pqi9to4mb8epppmcuq7927o8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3aDXe5K8bpasX6-v269xPHJr2gpJmVBQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "650451333777-mj615k67pqi9to4mb8epppmcuq7927o8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:650451333777:android:805e044f2eba2810",
+        "android_client_info": {
+          "package_name": "com.yeket.music.bridge"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "650451333777-j8ou1sdt1ipfscsnfoefu2i2q5nc5jkf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yeket.music.bridge",
+            "certificate_hash": "e138d676e5d2ebc09127c445f2aa118908ea166a"
+          }
+        },
+        {
+          "client_id": "650451333777-fk50ehip1pavn7lhon7vma6dl4uk94oi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yeket.music.bridge",
+            "certificate_hash": "cdf72eddd190bcba54545d11d047ff042c26d833"
+          }
+        },
+        {
+          "client_id": "650451333777-mj615k67pqi9to4mb8epppmcuq7927o8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3aDXe5K8bpasX6-v269xPHJr2gpJmVBQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "650451333777-mj615k67pqi9to4mb8epppmcuq7927o8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

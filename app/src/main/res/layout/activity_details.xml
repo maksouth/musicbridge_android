@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:activity=".bridge.ui.views.details.DetailsActivity">
+
+    <com.yeket.music.bridge.ui.ui_components.CustomTitleTextView
+        android:id="@+id/screen_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/side_margin"
+        android:text="@string/your_profile"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.1" />
+
+    <!--<ScrollView-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--app:layout_constraintBottom_toTopOf="@+id/relativeLayout"-->
+        <!--app:layout_constraintLeft_toLeftOf="parent"-->
+        <!--app:layout_constraintRight_toRightOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/screen_title">-->
+
+        <!--<android.support.constraint.ConstraintLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginEnd="@dimen/side_margin"
+                android:layout_marginRight="@dimen/side_margin"
+                android:background="@drawable/add_placeholder"
+                app:layout_constraintRight_toRightOf="parent"
+                tools:layout_constraintRight_creator="1"
+                tools:layout_constraintTop_creator="1"
+                android:layout_marginTop="32dp"
+                app:layout_constraintTop_toBottomOf="@+id/screen_title" />
+
+            <com.yeket.music.bridge.ui.ui_components.CustomTextView
+                android:id="@+id/about_you_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/about_you"
+                app:layout_constraintTop_toBottomOf="@+id/boy_icon"
+                tools:layout_constraintLeft_creator="1"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:maxLines="1"
+                android:layout_marginLeft="0dp"
+                app:layout_constraintLeft_toLeftOf="@+id/customTextView3" />
+
+            <com.yeket.music.bridge.ui.ui_components.CustomTextView
+                android:id="@+id/age_range_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="19dp"
+                android:text="@string/age_range"
+                app:layout_constraintTop_toBottomOf="@+id/about_you_text"
+                tools:layout_constraintLeft_creator="1"
+                android:layout_marginLeft="0dp"
+                app:layout_constraintLeft_toLeftOf="@+id/customTextView3" />
+
+            <com.yeket.music.bridge.ui.ui_components.CustomTextView
+                android:id="@+id/min_age_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="18"
+                tools:layout_constraintLeft_creator="1"
+                app:layout_constraintTop_toTopOf="@+id/age_range_label"
+                android:layout_marginTop="0dp"
+                app:layout_constraintRight_toLeftOf="@+id/dash_label"
+                android:layout_marginRight="0dp" />
+
+            <com.yeket.music.bridge.ui.ui_components.CustomTextView
+                android:id="@+id/dash_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                tools:layout_constraintLeft_creator="1"
+                app:layout_constraintTop_toTopOf="@+id/age_range_label"
+                android:layout_marginTop="0dp"
+                app:layout_constraintRight_toLeftOf="@+id/max_age_label"
+                android:layout_marginRight="0dp" />
+
+            <com.yeket.music.bridge.ui.ui_components.CustomTextView
+                android:id="@+id/max_age_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="35"
+                tools:layout_constraintLeft_creator="1"
+                android:layout_marginRight="0dp"
+                app:layout_constraintRight_toRightOf="@+id/profile_image"
+                app:layout_constraintTop_toTopOf="@+id/age_range_label"
+                android:layout_marginTop="0dp" />
+
+            <com.yeket.music.bridge.ui.ui_components.CustomTextView
+                android:id="@+id/i_am_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/i_am"
+                app:layout_constraintTop_toTopOf="@+id/boy_icon"
+                android:layout_marginLeft="0dp"
+                app:layout_constraintLeft_toLeftOf="@+id/customTextView3" />
+
+            <com.yeket.music.bridge.ui.ui_components.CustomBoldTextView
+                android:id="@+id/gender_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:text="@string/boy"
+                app:layout_constraintLeft_toRightOf="@+id/i_am_label"
+                app:layout_constraintTop_toTopOf="@+id/i_am_label"
+                tools:layout_constraintLeft_creator="1" />
+
+            <com.yeket.music.bridge.ui.ui_components.CustomTextView
+                android:layout_width="144dp"
+                android:layout_height="47dp"
+                android:lineSpacingExtra="8sp"
+                android:lines="2"
+                android:text="@string/upload_your_super_pic"
+                android:layout_marginLeft="@dimen/side_margin"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:id="@+id/customTextView3"
+                android:layout_marginTop="40dp"
+                app:layout_constraintTop_toBottomOf="@+id/screen_title" />
+
+
+            <com.yeket.music.bridge.ui.ui_components.CustomEditText
+                android:id="@+id/about_you_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/i_am_cool_and_lovely"
+                app:layout_constraintRight_toRightOf="@+id/profile_image"
+                app:layout_constraintTop_toBottomOf="@+id/about_you_label"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginLeft="0dp"
+                app:layout_constraintLeft_toLeftOf="@+id/about_you_label" />
+
+
+            <com.appyvet.rangebar.RangeBar xmlns:custom="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/age_rangebar"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_marginEnd="@dimen/side_margin"
+                android:layout_marginLeft="@dimen/side_margin"
+                android:layout_marginRight="@dimen/side_margin"
+                android:layout_marginStart="@dimen/side_margin"
+                custom:connectingLineColor="@color/colorPrimary"
+                custom:layout_constraintLeft_toLeftOf="parent"
+                custom:layout_constraintRight_toRightOf="parent"
+                custom:layout_constraintTop_toBottomOf="@+id/age_range_label"
+                custom:pinColor="@color/colorPrimaryDark"
+                custom:pinMaxFont="10sp"
+                custom:selectorColor="@color/colorPrimary"
+                custom:selectorSize="10dp"
+                custom:textColor="@color/white"
+                custom:tickColor="@color/white"
+                custom:tickEnd="50"
+                custom:tickInterval="1"
+                custom:tickStart="18"
+                android:layout_marginTop="-2dp"
+                custom:layout_constraintHorizontal_bias="1.0" />
+
+            <ImageView
+                android:id="@+id/boy_icon"
+                android:layout_width="63dp"
+                android:layout_height="63dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/boy_icon_pressed"
+                android:elevation="1dp"
+                app:layout_constraintRight_toRightOf="@+id/profile_image"
+                app:layout_constraintTop_toBottomOf="@+id/profile_image" />
+
+            <ImageView
+                android:id="@+id/girl_icon"
+                android:layout_width="63dp"
+                android:layout_height="63dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/girl_icon_normal"
+                app:layout_constraintRight_toLeftOf="@+id/boy_icon"
+                app:layout_constraintTop_toTopOf="@+id/boy_icon" />
+        <!--</android.support.constraint.ConstraintLayout>-->
+    <!--</ScrollView>-->
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        android:id="@+id/relativeLayout">
+
+        <com.yeket.music.bridge.ui.ui_components.CustomButton
+            android:id="@+id/back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/back" />
+
+        <com.yeket.music.bridge.ui.ui_components.CustomButton
+            android:id="@+id/next_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/button_bottom_margin"
+            android:layout_marginLeft="@dimen/button_indent"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/back_button"
+            android:text="@string/next_step" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
