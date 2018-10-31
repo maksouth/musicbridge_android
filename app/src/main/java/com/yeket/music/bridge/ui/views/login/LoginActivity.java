@@ -19,6 +19,7 @@ import com.yeket.music.bridge.infrastructure.di.modules.ViewModule;
 import com.yeket.music.bridge.ui.views.LuresApplication;
 import com.yeket.music.bridge.ui.views.details.DetailsActivity;
 import com.yeket.music.bridge.ui.views.main.MainActivity;
+import com.yeket.music.bridge.ui.views.privacy_policy.PrivacyPolicyActivity;
 
 import static com.yeket.music.bridge.ui.views.details.DetailsActivity.ONBOARDING_MODE;
 import static com.yeket.music.bridge.ui.views.details.DetailsActivity.PRESENTATION_MODE_KEY;
@@ -48,6 +49,13 @@ public class LoginActivity extends AppCompatActivity implements LoginContract.Vi
 
         if(findViewById(R.id.button)!=null)
             findViewById(R.id.button).setOnClickListener((v)->presenter.loginSpotify());
+
+        if (findViewById(R.id.privacy_policy_label) != null) {
+            findViewById(R.id.privacy_policy_label).setOnClickListener(
+                    v -> startActivity(new Intent(this, PrivacyPolicyActivity.class))
+            );
+        }
+
     }
 
     @Override

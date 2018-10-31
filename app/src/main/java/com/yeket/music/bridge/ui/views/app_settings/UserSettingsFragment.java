@@ -1,5 +1,6 @@
 package com.yeket.music.bridge.ui.views.app_settings;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -14,6 +15,7 @@ import com.yeket.music.bridge.infrastructure.di.components.DaggerPresenterCompon
 import com.yeket.music.bridge.infrastructure.di.modules.ContextModule;
 import com.yeket.music.bridge.infrastructure.di.modules.ViewModule;
 import com.yeket.music.bridge.ui.views.LuresApplication;
+import com.yeket.music.bridge.ui.views.privacy_policy.PrivacyPolicyActivity;
 
 public class UserSettingsFragment extends Fragment implements AppSettingsContract.View{
 
@@ -62,6 +64,10 @@ public class UserSettingsFragment extends Fragment implements AppSettingsContrac
         messageSwitch = ((Switch)view.findViewById(R.id.new_messages_switch));
         messageSwitch.setOnCheckedChangeListener(((buttonView, isChecked) ->
                 viewModel.notificationSwitched(SettingsDataSource.NotificationType.NEW_MESSAGE, isChecked)));
+
+        view.findViewById(R.id.read_privacy_policy_label).setOnClickListener( v ->
+            startActivity(new Intent(getContext(), PrivacyPolicyActivity.class))
+        );
     }
 
     @Override
